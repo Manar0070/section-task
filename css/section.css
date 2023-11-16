@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.project {
+    
+    width: 100%;
+}
+
+.project .header .navbar {
+    background-color:rgb(246, 5, 5);
+    color: #fff;
+    width: 100%;
+    padding: 20px 60px;
+}
+
+.project .header .navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.center img {
+    width: 1513px;
+    height:400px;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+
+
+
+    text-align: center;
+}
+
+.pic .pic-one {
+    background-color:white;
+    color: hsl(0, 50%, 5%);
+    width: 20%;
+    border: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    display:inline-block;
+    margin: 75px;
+    border: 1px solid black;
+
+    
+   
+}
+
+.pic .pic-one img {
+    width: 75%;
+    height: 150px;
+    margin: 20px 0;
+    clip-path: circle();
+background-color:dimgrey;
+background-size: 75%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.pic button{
+
+background-color: red;
+background-size: 20px;
+color: wheat;
+}
+.signature{
+
+    height: 50px;
+        width: 1495px;
+        text-align: center;
+        background-color: #000;
+        color: chocolate;
+        margin: 20px;
+        }
+    
